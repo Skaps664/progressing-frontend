@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy-Regular;
+    
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#nav-bar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 60px;
+
+    font-size: 16px;
+}
+#title{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+#links{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+#intro{
+    padding-top: 150px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 150px;
+}
+#main-tagline{
+    padding-top: 40px;
+    font-size: 100px;
+    letter-spacing: -4px;
+}
+#case-studies{
+    width: 100%;
+    height: 5%;
+    padding: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+}
+#dash{
+    height: 3px;
+    width: 100px;
+    background-color: black;
+}
+
+
+
+
+#cases{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 60px;
+
+}
+#case-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+}
+#case-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 45%;
+}
+#topic{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#topic h2{
+    font-family: Gilroy-Medium;
+    font-size: 30px;
+}
+#topic h3{
+    font-family: Gilroy-Light;
+    font-size: 17px;
+    color: grey;
+}
+#lef{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#righ i{
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+#image1{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLKvDRL7-eVypMy10ZavNWVJg2lPbWAksVcSQiNTFc5bE03JKgVekMkerUqYtjppXaNpE&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(165, 187, 193);
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+#image2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(165, 187, 193);
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
